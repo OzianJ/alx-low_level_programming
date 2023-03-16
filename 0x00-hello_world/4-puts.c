@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
- *puts function: a library function to send formatted output to the screen
- *Return: the exit status of the program whcich returns 0 if sucessful
+/**
+ * main-Entry point
+ * Description'This program prints something using the puts function.'
+ * Return:0 if successful
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
