@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- *main:entry point
- *Return:0 if sucessful
+/**
+ * main-entry point
+ *Description:'this program will print using the printf.'
+ * Return:0 if sucessful
  */
 int main(void)
 {
