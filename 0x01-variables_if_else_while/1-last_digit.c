@@ -1,18 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - entry point
- * description - prints the last digit of the random number stored in the variable n 
- * Return: Always 0 (Success)
+ * main-Entry point
+ * Description'prints last digit of the value stored in variable n'
+ * Return: 0 if successful
  */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 printf("Last digit of %d is %d", n, n % 10);
 if (n % 10 > 5)
 printf(" and is greater than 5\n");

@@ -1,23 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- *main: entry point
- *Description: the program will determine the random value of the variable
- *return: 0 if successful 
-*/
+ * main-Entry point
+ * Description'This program prints random value of a variable.'
+ * Return:0 if successful
+ */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	printf("%d is positive\n", n);
-	else if (n == 0)
-	printf("%d is zero\n", n);
-	else
-	printf("%d is negative\n", n);
-	return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is positive\n", n);
+else if (n == 0)
+printf("%d is zero\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+return (0);
 }
