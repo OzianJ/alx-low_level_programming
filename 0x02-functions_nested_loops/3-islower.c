@@ -1,7 +1,10 @@
 #include "main.h"
 /**
- * _islower 'check if the character is lowercase'
- * Return : 0 if successful
+ * _islower- entry point
+ * Description:'check if the character is lowercase'
+ *@c: alphabet being tesed
+ * Return: 1 if successful
+ *return: always 0
  */
 int _islower(int c)
 {
