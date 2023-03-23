@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * mul - entry point
  * Description: 'multiply two digits'
- * @a: first digit
- * @b: second digit
+ * @a: first intiger
+ * @b: second intiger
  * Return: Always 0.
  */
 
 int mul(int a, int b)
 {
-  return (a * b);
+return (a * b);
 }
