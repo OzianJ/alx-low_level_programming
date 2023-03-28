@@ -10,14 +10,14 @@
 
 void print_array(int *a, int n)
 {
-int c;
+int i;
 
-for (c = 0; c < n; c++)
+for (i = 0; i < n; i++)
 {
-if (c == 0)
-printf("%d", a[c]);
+if (i == 0)
+printf("%d", a[i]);
 else
-printf(", %d", a[c]);
+printf(", %d", a[i]);
 }
-printf('\n');
+printf("\n");
 }
